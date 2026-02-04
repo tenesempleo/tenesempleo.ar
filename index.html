@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>tenesempleo | CV que el sistema sí lee</title>
+  <title>tenesempleo | Entendé por qué tu CV no funciona</title>
 
-  <meta name="description" content="Ayudamos a personas de limpieza, fábrica, depósito y atención al cliente a adaptar su CV para sistemas ATS y portales de empleo.">
+  <meta name="description" content="Explicamos de forma clara por qué los CV son descartados por sistemas automáticos (ATS) y cómo mejorar tu visibilidad en portales como Computrabajo.">
 
   <style>
     :root{
       --green:#1f8f4c;
-      --green-soft:#eaf7f0;
       --green-dark:#146b3a;
+      --green-soft:#eaf7f0;
       --gray:#555;
     }
 
@@ -26,15 +26,335 @@
     body{
       background:#fff;
       color:#222;
-      line-height:1.6;
+      line-height:1.75;
     }
 
     section{
-      padding:50px 20px;
+      padding:60px 20px;
     }
 
     .container{
-      max-width:480px;
+      max-width:720px;
+      margin:auto;
+    }
+
+    h1,h2{
+      color:var(--green-dark);
+      margin-bottom:20px;
+      line-height:1.3;
+    }
+
+    h1{ font-size:34px; }
+    h2{ font-size:26px; }
+
+    p{
+      font-size:16px;
+      color:var(--gray);
+      margin-bottom:18px;
+    }
+
+    .hero{
+      background:linear-gradient(180deg, var(--green-soft), #fff);
+    }
+
+    .hero strong{
+      color:var(--green);
+    }
+
+    .box{
+      background:#fff;
+      border-radius:16px;
+      padding:32px;
+      margin-top:30px;
+      box-shadow:0 8px 20px rgba(0,0,0,0.05);
+    }
+
+    .green-box{
+      background:var(--green-soft);
+      border-radius:16px;
+      padding:32px;
+      margin-top:30px;
+    }
+
+    .cta{
+      display:inline-block;
+      margin-top:30px;
+      background:var(--green);
+      color:#fff;
+      padding:16px 28px;
+      border-radius:30px;
+      text-decoration:none;
+      font-weight:700;
+      font-size:16px;
+    }
+
+    .cta:hover{
+      background:var(--green-dark);
+    }
+
+    .highlight{
+      background:var(--green);
+      color:#fff;
+      text-align:center;
+      padding:80px 20px;
+    }
+
+    .highlight h2{
+      color:#fff;
+    }
+
+    footer{
+      background:#f2f2f2;
+      text-align:center;
+      padding:30px 20px;
+      font-size:14px;
+      color:#444;
+    }
+
+    /* WhatsApp flotante */
+    .whatsapp-float{
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: #fff;
+      padding: 14px 18px;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 15px;
+      font-weight: 700;
+      text-decoration: none;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+      z-index: 999;
+    }
+
+    @media(max-width:420px){
+      .wa-text{ display:none; }
+      h1{ font-size:28px; }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <h1>Mandás CV, te postulás todos los días y <strong>nadie te llama</strong>.</h1>
+    <p>
+      A miles de personas en Argentina les pasa lo mismo.
+      No es falta de ganas, ni de experiencia, ni de esfuerzo.
+    </p>
+    <p>
+      El problema empieza antes de que una persona vea tu CV.
+      <strong>Empieza cuando un sistema automático decide si mostrarlo o descartarlo.</strong>
+    </p>
+    <a href="#contacto" class="cta">Quiero entender qué está pasando</a>
+  </div>
+</section>
+
+<!-- QUÉ ES ATS -->
+<section>
+  <div class="container">
+    <h2>Qué es un ATS (explicado sin tecnicismos)</h2>
+
+    <p>
+      Un ATS es un sistema que usan las empresas y los portales de empleo
+      para leer y ordenar currículums automáticamente.
+    </p>
+
+    <p>
+      No es una persona. No interpreta intenciones.
+      No valora el diseño ni la creatividad.
+    </p>
+
+    <p>
+      Es un programa que analiza texto, estructura y orden.
+      Si no puede leer tu CV correctamente, simplemente lo descarta.
+    </p>
+
+    <div class="green-box">
+      <p>
+        Cuando una empresa publica un aviso, no recibe 5 o 10 CV.
+        Recibe cientos.
+      </p>
+      <p>
+        Por eso usan estos sistemas: para filtrar rápido
+        y quedarse solo con los CV que el programa puede entender.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- CV BONITOS -->
+<section>
+  <div class="container">
+    <h2>El problema de los CV “lindos” y de colores</h2>
+
+    <p>
+      Muchos CV que se venden hoy parecen profesionales:
+      colores, íconos, columnas, fotos grandes, diseño moderno.
+    </p>
+
+    <p>
+      Incluso se cobran más de $20.000.
+      Pero están pensados para imprimir o entregar en mano.
+    </p>
+
+    <p>
+      Hoy la mayoría de los CV se envían por portales.
+      Y esos formatos no pueden ser leídos correctamente por los sistemas.
+    </p>
+
+    <div class="box">
+      <p>
+        El resultado es siempre el mismo:
+        un CV lindo, caro y bien presentado,
+        pero <strong>descartado automáticamente</strong>.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- COMPUTRABAJO -->
+<section>
+  <div class="container">
+    <h2>Cómo funcionan realmente portales como Computrabajo</h2>
+
+    <p>
+      Todos los días se publican nuevos avisos de limpieza,
+      fábricas, depósitos, operarios, atención al cliente y gastronomía.
+    </p>
+
+    <p>
+      Las empresas no revisan uno por uno todos los CV que llegan.
+      Primero, el sistema los ordena y filtra.
+    </p>
+
+    <p>
+      Solo una parte de los postulantes
+      llega a ser visible para una persona.
+    </p>
+
+    <div class="green-box">
+      <p>
+        Si tu experiencia no está bien explicada,
+        si la información está desordenada
+        o el formato bloquea la lectura,
+        <strong>el sistema no te muestra</strong>.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- QUÉ BUSCAN -->
+<section>
+  <div class="container">
+    <h2>Qué buscan las empresas cuando leen un CV</h2>
+
+    <p>
+      Las empresas no buscan frases lindas ni relleno.
+      Buscan entender rápido qué hiciste,
+      en qué puesto y durante cuánto tiempo.
+    </p>
+
+    <p>
+      El sistema necesita identificar tu experiencia
+      de forma clara y ordenada.
+    </p>
+
+    <p>
+      Cuando eso no está bien explicado,
+      el programa no puede clasificar tu perfil
+      y lo deja fuera de las búsquedas.
+    </p>
+  </div>
+</section>
+
+<!-- QUÉ HACEMOS -->
+<section>
+  <div class="container">
+    <h2>Qué hacemos en tenesempleo</h2>
+
+    <p>
+      En tenesempleo no hacemos CV decorativos.
+      Trabajamos sobre el contenido y la estructura.
+    </p>
+
+    <p>
+      Analizamos cómo está presentada tu experiencia,
+      cómo la interpreta un sistema
+      y qué cosas impiden que sea leída correctamente.
+    </p>
+
+    <div class="green-box">
+      <p>
+        Ordenamos la información,
+        reorganizamos la experiencia
+        y eliminamos elementos que bloquean la lectura automática.
+      </p>
+      <p>
+        No inventamos experiencia.
+        No prometemos resultados mágicos.
+        Hacemos que tu CV pueda ser leído y entendido.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- PRUEBA SOCIAL -->
+<section>
+  <div class="container">
+    <h2>🇦🇷 Más de 4.000 personas en Argentina</h2>
+
+    <p>
+      Ya ayudamos a miles de personas que se postulaban todos los días
+      sin recibir respuestas.
+    </p>
+
+    <p>
+      Personas de limpieza, fábricas, depósitos,
+      atención al cliente y otros rubros.
+    </p>
+
+    <p>
+      El problema no era su experiencia.
+      Era cómo el sistema leía su CV.
+    </p>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="highlight" id="contacto">
+  <div class="container">
+    <h2>Dejá de mandar CV a ciegas</h2>
+    <p>
+      Entender cómo funciona el sistema
+      es el primer paso para dejar de postularte al azar.
+    </p>
+
+    <a href="https://wa.me/541161191341?text=Hola%20quiero%20entender%20por%20qué%20mi%20CV%20no%20funciona"
+       class="cta"
+       target="_blank">
+       Hablar por WhatsApp
+    </a>
+  </div>
+</section>
+
+<footer>
+  © tenesempleo – Educación laboral real
+</footer>
+
+<a href="https://wa.me/541161191341?text=Hola%20quiero%20entender%20por%20qué%20mi%20CV%20no%20funciona"
+   class="whatsapp-float"
+   target="_blank">
+  💬 <span class="wa-text">Consultá ahora</span>
+</a>
+
+</body>
+  </html>      max-width:480px;
       margin:auto;
     }
 
@@ -306,4 +626,5 @@
 </a>
 
 </body>
+
 </html>
